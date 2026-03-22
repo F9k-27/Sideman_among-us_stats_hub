@@ -1,6 +1,6 @@
 # Sideman Among Us Stats Hub
 
-![Sideman Among Us Stats Hub preview](Images/preview.png)
+![Sideman Among Us Stats Hub preview](Images/logo.png)
 
 ## About Sideman Among Us Stats Hub
 
@@ -14,7 +14,7 @@ This website tracks **Among Us statistics for the Sidemen**, including:
 
 Explore detailed stats for each player and discover the most successful imposters and strategies.
 
-👉 **[Open the application](https://your-link-here.github.io/)**
+👉 **[Open the application](https://f9k-27.github.io/Sideman_among-us_stats_hub/)**
 
 ---
 
