@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Among Us | Sideman Stat Hub</title>
+    <title>Among Us | Sideman Stats Hub</title>
+    <link rel="icon" href="Icons/pink.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div id="dashboard-view" class="view active">
         <header>
-            <h1>OVERALL SIDEMAN AMONGUS STATISTICS</h1>
+            <h1>OVERALL SIDEMAN AMONG-US STATISTICS</h1>
             <div class="overall-stats" id="overall-stats-container"></div>
             
             <h2 class="sub-header">Top Imposter Combinations</h2>
@@ -64,6 +65,62 @@
             
             <div class="detail-stats" id="detail-stats-container"></div>
         </main>
+    </div>
+
+    <!-- Welcome Popup -->
+    <div id="welcome-modal" style="
+        position:fixed; inset:0; background:rgba(0,0,0,0.75);
+        display:flex; align-items:center; justify-content:center;
+        z-index:1000; padding:1rem;">
+        <div style="
+            background:#1a1a1a; border:1px solid #333; border-radius:12px;
+            max-width:480px; width:100%; padding:2rem; text-align:center;
+            box-shadow:0 8px 32px rgba(0,0,0,0.6); max-height:90vh; overflow-y:auto;
+            position:relative;">
+            <button onclick="document.getElementById('welcome-modal').style.display='none'" style="
+                position:absolute; top:0.75rem; right:0.75rem;
+                background:transparent; color:#aaa; border:none; font-size:2rem;
+                cursor:pointer; line-height:1; padding:0.2rem 0.5rem;"
+                title="Close">&times;</button>
+
+            <h2 style="color:#ff6b00; font-size:1.4rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:0.75rem;">
+                Sideman Among Us Stats
+            </h2>
+            <p style="color:#aaa; font-size:0.95rem; line-height:1.6; margin-bottom:1.5rem;">
+                Welcome! This site tracks Among Us statistics for the Sideman — win rates, imposter combos, kill stats and more.
+            </p>
+
+            <hr style="border:0; border-top:1px solid #333; margin-bottom:1.5rem;">
+
+            <h3 style="color:#ff6b00; font-size:1rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:0.75rem;">
+                Support This Project
+            </h3>
+            <p style="color:#aaa; font-size:0.9rem; margin-bottom:1rem;">
+                If you enjoy the site and want to support it, any donation is appreciated!
+            </p>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=67VGX3S9J9MVJ" target="_blank" style="
+                display:inline-block; background:#ff6b00; color:#fff;
+                padding:0.6rem 1.4rem; border-radius:6px; text-decoration:none;
+                font-weight:700; font-size:0.95rem; margin-bottom:1rem; transition:0.2s;">
+                Donate via PayPal
+            </a>
+            <br>
+            <img src="Images/qrcode.png" alt="PayPal QR Code" style="width:140px; height:140px; object-fit:contain; border-radius:8px; margin-bottom:1.5rem;">
+
+            <hr style="border:0; border-top:1px solid #333; margin-bottom:1.5rem;">
+
+            <h3 style="color:#ff6b00; font-size:1rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:0.75rem;">
+                Feedback &amp; Suggestions
+            </h3>
+            <p style="color:#aaa; font-size:0.9rem; line-height:1.8;">
+                Feel free to reach out via:<br>
+                <a href="https://github.com/F9k-27/Sideman_among-us_stats_hub/issues" target="_blank" style="color:#ff6b00; text-decoration:none;">GitHub Issues</a>
+                &nbsp;|&nbsp;
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-C-lQcRBADBkSQU27nDXbKeW7-TuG9PN-OVsQ46DPUCywGg/viewform?usp=header" target="_blank" style="color:#ff6b00; text-decoration:none;">Contact Form</a>
+            </p>
+
+            <br>
+        </div>
     </div>
 
     <script src="script.js"></script>
