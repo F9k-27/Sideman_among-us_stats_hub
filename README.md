@@ -1,6 +1,6 @@
 # Sideman Among Us Stats Hub
 
-[Sideman Among Us Stats Hub preview](Images/logo.png)
+![Sideman Among Us Stats Hub preview](Images/logo.png)
 
 ## About Sideman Among Us Stats Hub
 
