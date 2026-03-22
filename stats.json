@@ -1,0 +1,3431 @@
+{
+  "overall": {
+    "totalGames": 435,
+    "totalKills": 2051,
+    "totalTasks": 16878,
+    "completedTasks": 6390,
+    "topCombos": [
+      {
+        "combo": "Ethan, Josh",
+        "games": 12,
+        "wins": 3,
+        "winRate": 25.0
+      },
+      {
+        "combo": "Josh, Vik",
+        "games": 10,
+        "wins": 9,
+        "winRate": 90.0
+      },
+      {
+        "combo": "Josh, Tobi",
+        "games": 10,
+        "wins": 3,
+        "winRate": 30.0
+      },
+      {
+        "combo": "JJ, Tobi",
+        "games": 8,
+        "wins": 4,
+        "winRate": 50.0
+      },
+      {
+        "combo": "Harry, JJ",
+        "games": 8,
+        "wins": 4,
+        "winRate": 50.0
+      },
+      {
+        "combo": "Lazarbeam, Vik",
+        "games": 8,
+        "wins": 5,
+        "winRate": 63.0
+      },
+      {
+        "combo": "JJ, Lazarbeam",
+        "games": 6,
+        "wins": 4,
+        "winRate": 67.0
+      },
+      {
+        "combo": "JJ, Vik",
+        "games": 6,
+        "wins": 3,
+        "winRate": 50.0
+      },
+      {
+        "combo": "Lachlan, Simon",
+        "games": 6,
+        "wins": 4,
+        "winRate": 67.0
+      },
+      {
+        "combo": "Lachlan, Vik",
+        "games": 6,
+        "wins": 1,
+        "winRate": 17.0
+      }
+    ]
+  },
+  "players": [
+    {
+      "id": "Josh",
+      "name": "Josh",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 42.21,
+      "games": 398,
+      "stats": {
+        "wins": 168,
+        "losses": 228,
+        "kills": 166,
+        "deaths": 185,
+        "kdr": 0.9,
+        "tasksCompleted": 714,
+        "votedOut": 71,
+        "meetings": 49
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 288,
+          "wins": 127,
+          "winRate": 44.1
+        },
+        "Imposter": {
+          "games": 90,
+          "wins": 39,
+          "winRate": 43.33,
+          "kills": 154
+        },
+        "Neutral": {
+          "games": 20,
+          "wins": 3,
+          "winRate": 15.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Ethan",
+            "count": 18
+          },
+          {
+            "name": "Tobi",
+            "count": 17
+          },
+          {
+            "name": "JJ",
+            "count": 16
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Vik",
+            "count": 24
+          },
+          {
+            "name": "Ethan",
+            "count": 19
+          },
+          {
+            "name": "Harry",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vik",
+      "name": "Vik",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.13,
+      "games": 383,
+      "stats": {
+        "wins": 192,
+        "losses": 191,
+        "kills": 184,
+        "deaths": 183,
+        "kdr": 1.01,
+        "tasksCompleted": 379,
+        "votedOut": 55,
+        "meetings": 37
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 286,
+          "wins": 139,
+          "winRate": 48.6
+        },
+        "Imposter": {
+          "games": 78,
+          "wins": 46,
+          "winRate": 58.97,
+          "kills": 167
+        },
+        "Neutral": {
+          "games": 19,
+          "wins": 8,
+          "winRate": 42.11
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 26
+          },
+          {
+            "name": "Ethan",
+            "count": 24
+          },
+          {
+            "name": "Josh",
+            "count": 24
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 21
+          },
+          {
+            "name": "JJ",
+            "count": 18
+          },
+          {
+            "name": "Ethan",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ethan",
+      "name": "Ethan",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 42.36,
+      "games": 373,
+      "stats": {
+        "wins": 158,
+        "losses": 216,
+        "kills": 184,
+        "deaths": 190,
+        "kdr": 0.97,
+        "tasksCompleted": 795,
+        "votedOut": 51,
+        "meetings": 21
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 282,
+          "wins": 122,
+          "winRate": 43.26
+        },
+        "Imposter": {
+          "games": 72,
+          "wins": 30,
+          "winRate": 41.67,
+          "kills": 154
+        },
+        "Neutral": {
+          "games": 19,
+          "wins": 5,
+          "winRate": 26.32
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 19
+          },
+          {
+            "name": "Josh",
+            "count": 19
+          },
+          {
+            "name": "JJ",
+            "count": 18
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Vik",
+            "count": 24
+          },
+          {
+            "name": "JJ",
+            "count": 22
+          },
+          {
+            "name": "Josh",
+            "count": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tobi",
+      "name": "Tobi",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 44.89,
+      "games": 372,
+      "stats": {
+        "wins": 167,
+        "losses": 205,
+        "kills": 192,
+        "deaths": 167,
+        "kdr": 1.15,
+        "tasksCompleted": 878,
+        "votedOut": 67,
+        "meetings": 27
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 275,
+          "wins": 131,
+          "winRate": 47.64
+        },
+        "Imposter": {
+          "games": 76,
+          "wins": 32,
+          "winRate": 42.11,
+          "kills": 165
+        },
+        "Neutral": {
+          "games": 21,
+          "wins": 4,
+          "winRate": 19.05
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Vik",
+            "count": 21
+          },
+          {
+            "name": "Ethan",
+            "count": 18
+          },
+          {
+            "name": "Josh",
+            "count": 16
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 20
+          },
+          {
+            "name": "Vik",
+            "count": 19
+          },
+          {
+            "name": "Josh",
+            "count": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "Simon",
+      "name": "Simon",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 52.51,
+      "games": 358,
+      "stats": {
+        "wins": 188,
+        "losses": 169,
+        "kills": 157,
+        "deaths": 174,
+        "kdr": 0.9,
+        "tasksCompleted": 666,
+        "votedOut": 32,
+        "meetings": 50
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 273,
+          "wins": 139,
+          "winRate": 50.92
+        },
+        "Imposter": {
+          "games": 59,
+          "wins": 44,
+          "winRate": 74.58,
+          "kills": 142
+        },
+        "Neutral": {
+          "games": 26,
+          "wins": 5,
+          "winRate": 19.23
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Tobi",
+            "count": 20
+          },
+          {
+            "name": "Vik",
+            "count": 17
+          },
+          {
+            "name": "Josh",
+            "count": 15
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Vik",
+            "count": 26
+          },
+          {
+            "name": "Josh",
+            "count": 16
+          },
+          {
+            "name": "Ethan",
+            "count": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "Harry",
+      "name": "Harry",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 43.86,
+      "games": 342,
+      "stats": {
+        "wins": 150,
+        "losses": 191,
+        "kills": 120,
+        "deaths": 163,
+        "kdr": 0.74,
+        "tasksCompleted": 516,
+        "votedOut": 46,
+        "meetings": 36
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 267,
+          "wins": 121,
+          "winRate": 45.32
+        },
+        "Imposter": {
+          "games": 53,
+          "wins": 25,
+          "winRate": 47.17,
+          "kills": 105
+        },
+        "Neutral": {
+          "games": 22,
+          "wins": 4,
+          "winRate": 18.18
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 17
+          },
+          {
+            "name": "Simon",
+            "count": 15
+          },
+          {
+            "name": "Ethan",
+            "count": 13
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 19
+          },
+          {
+            "name": "Josh",
+            "count": 15
+          },
+          {
+            "name": "JJ",
+            "count": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "JJ",
+      "name": "JJ",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 42.58,
+      "games": 310,
+      "stats": {
+        "wins": 132,
+        "losses": 178,
+        "kills": 179,
+        "deaths": 126,
+        "kdr": 1.42,
+        "tasksCompleted": 206,
+        "votedOut": 93,
+        "meetings": 65
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 213,
+          "wins": 92,
+          "winRate": 43.19
+        },
+        "Imposter": {
+          "games": 79,
+          "wins": 37,
+          "winRate": 46.84,
+          "kills": 148
+        },
+        "Neutral": {
+          "games": 18,
+          "wins": 3,
+          "winRate": 16.67
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Ethan",
+            "count": 22
+          },
+          {
+            "name": "Vik",
+            "count": 18
+          },
+          {
+            "name": "Deji",
+            "count": 15
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 19
+          },
+          {
+            "name": "Ethan",
+            "count": 18
+          },
+          {
+            "name": "Josh",
+            "count": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "Deji",
+      "name": "Deji",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 40.86,
+      "games": 257,
+      "stats": {
+        "wins": 105,
+        "losses": 151,
+        "kills": 150,
+        "deaths": 114,
+        "kdr": 1.32,
+        "tasksCompleted": 212,
+        "votedOut": 66,
+        "meetings": 38
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 181,
+          "wins": 80,
+          "winRate": 44.2
+        },
+        "Imposter": {
+          "games": 48,
+          "wins": 17,
+          "winRate": 35.42,
+          "kills": 104
+        },
+        "Neutral": {
+          "games": 28,
+          "wins": 9,
+          "winRate": 32.14
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "JJ",
+            "count": 19
+          },
+          {
+            "name": "Deji",
+            "count": 16
+          },
+          {
+            "name": "Tobi",
+            "count": 15
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 16
+          },
+          {
+            "name": "JJ",
+            "count": 15
+          },
+          {
+            "name": "Tobi",
+            "count": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lazarbeam",
+      "name": "Lazarbeam",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 47.48,
+      "games": 238,
+      "stats": {
+        "wins": 113,
+        "losses": 125,
+        "kills": 120,
+        "deaths": 106,
+        "kdr": 1.13,
+        "tasksCompleted": 292,
+        "votedOut": 38,
+        "meetings": 32
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 178,
+          "wins": 82,
+          "winRate": 46.07
+        },
+        "Imposter": {
+          "games": 48,
+          "wins": 27,
+          "winRate": 56.25,
+          "kills": 105
+        },
+        "Neutral": {
+          "games": 12,
+          "wins": 4,
+          "winRate": 33.33
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 14
+          },
+          {
+            "name": "Ethan",
+            "count": 13
+          },
+          {
+            "name": "Vik",
+            "count": 12
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 16
+          },
+          {
+            "name": "Ethan",
+            "count": 12
+          },
+          {
+            "name": "Simon",
+            "count": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "Viz",
+      "name": "Viz",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 44.89,
+      "games": 176,
+      "stats": {
+        "wins": 79,
+        "losses": 96,
+        "kills": 73,
+        "deaths": 91,
+        "kdr": 0.8,
+        "tasksCompleted": 259,
+        "votedOut": 22,
+        "meetings": 8
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 129,
+          "wins": 63,
+          "winRate": 48.84
+        },
+        "Imposter": {
+          "games": 28,
+          "wins": 12,
+          "winRate": 42.86,
+          "kills": 60
+        },
+        "Neutral": {
+          "games": 19,
+          "wins": 4,
+          "winRate": 21.05
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Vik",
+            "count": 8
+          },
+          {
+            "name": "Tobi",
+            "count": 7
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 6
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 14
+          },
+          {
+            "name": "JJ",
+            "count": 11
+          },
+          {
+            "name": "Randolph",
+            "count": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lachlan",
+      "name": "Lachlan",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 38.1,
+      "games": 168,
+      "stats": {
+        "wins": 64,
+        "losses": 104,
+        "kills": 87,
+        "deaths": 87,
+        "kdr": 1.0,
+        "tasksCompleted": 182,
+        "votedOut": 26,
+        "meetings": 13
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 124,
+          "wins": 50,
+          "winRate": 40.32
+        },
+        "Imposter": {
+          "games": 35,
+          "wins": 12,
+          "winRate": 34.29,
+          "kills": 73
+        },
+        "Neutral": {
+          "games": 9,
+          "wins": 2,
+          "winRate": 22.22
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 10
+          },
+          {
+            "name": "Deji",
+            "count": 9
+          },
+          {
+            "name": "Lachlan",
+            "count": 9
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 11
+          },
+          {
+            "name": "Lachlan",
+            "count": 9
+          },
+          {
+            "name": "Vik",
+            "count": 9
+          }
+        ]
+      }
+    },
+    {
+      "id": "Randolph",
+      "name": "Randolph",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 36.9,
+      "games": 168,
+      "stats": {
+        "wins": 62,
+        "losses": 106,
+        "kills": 71,
+        "deaths": 84,
+        "kdr": 0.85,
+        "tasksCompleted": 250,
+        "votedOut": 34,
+        "meetings": 12
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 129,
+          "wins": 50,
+          "winRate": 38.76
+        },
+        "Imposter": {
+          "games": 34,
+          "wins": 11,
+          "winRate": 32.35,
+          "kills": 70
+        },
+        "Neutral": {
+          "games": 5,
+          "wins": 1,
+          "winRate": 20.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 14
+          },
+          {
+            "name": "Viz",
+            "count": 8
+          },
+          {
+            "name": "Josh",
+            "count": 7
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 12
+          },
+          {
+            "name": "Vik",
+            "count": 9
+          },
+          {
+            "name": "Ethan",
+            "count": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "DannyAarons",
+      "name": "DannyAarons",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 44.85,
+      "games": 136,
+      "stats": {
+        "wins": 61,
+        "losses": 75,
+        "kills": 83,
+        "deaths": 56,
+        "kdr": 1.48,
+        "tasksCompleted": 105,
+        "votedOut": 27,
+        "meetings": 11
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 90,
+          "wins": 45,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 36,
+          "wins": 14,
+          "winRate": 38.89,
+          "kills": 74
+        },
+        "Neutral": {
+          "games": 10,
+          "wins": 2,
+          "winRate": 20.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Ethan",
+            "count": 11
+          },
+          {
+            "name": "Simon",
+            "count": 10
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 7
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 10
+          },
+          {
+            "name": "Simon",
+            "count": 6
+          },
+          {
+            "name": "Viz",
+            "count": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "PieFace",
+      "name": "PieFace",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 42.86,
+      "games": 91,
+      "stats": {
+        "wins": 39,
+        "losses": 52,
+        "kills": 44,
+        "deaths": 43,
+        "kdr": 1.02,
+        "tasksCompleted": 234,
+        "votedOut": 13,
+        "meetings": 8
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 65,
+          "wins": 27,
+          "winRate": 41.54
+        },
+        "Imposter": {
+          "games": 22,
+          "wins": 12,
+          "winRate": 54.55,
+          "kills": 42
+        },
+        "Neutral": {
+          "games": 4,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 5
+          },
+          {
+            "name": "Randolph",
+            "count": 5
+          },
+          {
+            "name": "Vik",
+            "count": 5
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 4
+          },
+          {
+            "name": "Simon",
+            "count": 4
+          },
+          {
+            "name": "Tobi",
+            "count": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ellum",
+      "name": "Ellum",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 48.15,
+      "games": 54,
+      "stats": {
+        "wins": 26,
+        "losses": 28,
+        "kills": 27,
+        "deaths": 26,
+        "kdr": 1.04,
+        "tasksCompleted": 78,
+        "votedOut": 15,
+        "meetings": 3
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 44,
+          "wins": 22,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 10,
+          "wins": 4,
+          "winRate": 40.0,
+          "kills": 27
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 4
+          },
+          {
+            "name": "Simon",
+            "count": 4
+          },
+          {
+            "name": "Ethan",
+            "count": 3
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Josh",
+            "count": 5
+          },
+          {
+            "name": "Simon",
+            "count": 4
+          },
+          {
+            "name": "Viz",
+            "count": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ginge",
+      "name": "Ginge",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 28.21,
+      "games": 39,
+      "stats": {
+        "wins": 11,
+        "losses": 28,
+        "kills": 18,
+        "deaths": 21,
+        "kdr": 0.86,
+        "tasksCompleted": 85,
+        "votedOut": 7,
+        "meetings": 7
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 25,
+          "wins": 10,
+          "winRate": 40.0
+        },
+        "Imposter": {
+          "games": 9,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 13
+        },
+        "Neutral": {
+          "games": 5,
+          "wins": 1,
+          "winRate": 20.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "DannyAarons",
+            "count": 3
+          },
+          {
+            "name": "JJ",
+            "count": 3
+          },
+          {
+            "name": "Tobi",
+            "count": 3
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 3
+          },
+          {
+            "name": "Josh",
+            "count": 3
+          },
+          {
+            "name": "Randolph",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "JME",
+      "name": "JME",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 51.43,
+      "games": 35,
+      "stats": {
+        "wins": 18,
+        "losses": 17,
+        "kills": 32,
+        "deaths": 18,
+        "kdr": 1.78,
+        "tasksCompleted": 51,
+        "votedOut": 8,
+        "meetings": 11
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 21,
+          "wins": 14,
+          "winRate": 66.67
+        },
+        "Imposter": {
+          "games": 12,
+          "wins": 4,
+          "winRate": 33.33,
+          "kills": 27
+        },
+        "Neutral": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 5
+          },
+          {
+            "name": "Ethan",
+            "count": 4
+          },
+          {
+            "name": "Harry",
+            "count": 4
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 3
+          },
+          {
+            "name": "Tobi",
+            "count": 3
+          },
+          {
+            "name": "Harry",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "Callux",
+      "name": "Callux",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 47.06,
+      "games": 34,
+      "stats": {
+        "wins": 16,
+        "losses": 18,
+        "kills": 10,
+        "deaths": 21,
+        "kdr": 0.48,
+        "tasksCompleted": 25,
+        "votedOut": 6,
+        "meetings": 3
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 26,
+          "wins": 12,
+          "winRate": 46.15
+        },
+        "Imposter": {
+          "games": 4,
+          "wins": 2,
+          "winRate": 50.0,
+          "kills": 8
+        },
+        "Neutral": {
+          "games": 4,
+          "wins": 2,
+          "winRate": 50.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Deji",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          },
+          {
+            "name": "Viz",
+            "count": 2
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "DannyAarons",
+            "count": 3
+          },
+          {
+            "name": "Deji",
+            "count": 3
+          },
+          {
+            "name": "Josh",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "ChrisMD",
+      "name": "ChrisMD",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 38.24,
+      "games": 34,
+      "stats": {
+        "wins": 13,
+        "losses": 21,
+        "kills": 13,
+        "deaths": 13,
+        "kdr": 1.0,
+        "tasksCompleted": 29,
+        "votedOut": 7,
+        "meetings": 4
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 31,
+          "wins": 12,
+          "winRate": 38.71
+        },
+        "Imposter": {
+          "games": 3,
+          "wins": 1,
+          "winRate": 33.33,
+          "kills": 13
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 2
+          },
+          {
+            "name": "Vik",
+            "count": 2
+          },
+          {
+            "name": "Ellum",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 3
+          },
+          {
+            "name": "Harry",
+            "count": 2
+          },
+          {
+            "name": "DannyAarons",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Calfreezy",
+      "name": "Calfreezy",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 37.5,
+      "games": 32,
+      "stats": {
+        "wins": 12,
+        "losses": 20,
+        "kills": 13,
+        "deaths": 15,
+        "kdr": 0.87,
+        "tasksCompleted": 21,
+        "votedOut": 7,
+        "meetings": 5
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 24,
+          "wins": 8,
+          "winRate": 33.33
+        },
+        "Imposter": {
+          "games": 8,
+          "wins": 4,
+          "winRate": 50.0,
+          "kills": 11
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          },
+          {
+            "name": "ArthurTV",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 4
+          },
+          {
+            "name": "Simon",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "MaxFosh",
+      "name": "MaxFosh",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 46.88,
+      "games": 32,
+      "stats": {
+        "wins": 15,
+        "losses": 18,
+        "kills": 19,
+        "deaths": 15,
+        "kdr": 1.27,
+        "tasksCompleted": 59,
+        "votedOut": 7,
+        "meetings": 4
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 20,
+          "wins": 12,
+          "winRate": 60.0
+        },
+        "Imposter": {
+          "games": 10,
+          "wins": 2,
+          "winRate": 20.0,
+          "kills": 18
+        },
+        "Neutral": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 3
+          },
+          {
+            "name": "Vik",
+            "count": 3
+          },
+          {
+            "name": "Callux",
+            "count": 2
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 2
+          },
+          {
+            "name": "Josh",
+            "count": 2
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "JackSucksAtLife",
+      "name": "JackSucksAtLife",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 51.85,
+      "games": 27,
+      "stats": {
+        "wins": 14,
+        "losses": 13,
+        "kills": 3,
+        "deaths": 11,
+        "kdr": 0.27,
+        "tasksCompleted": 20,
+        "votedOut": 0,
+        "meetings": 2
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 23,
+          "wins": 10,
+          "winRate": 43.48
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 3,
+          "wins": 1,
+          "winRate": 33.33
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Deji",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Harry",
+            "count": 2
+          },
+          {
+            "name": "Josh",
+            "count": 2
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "George Clarkey",
+      "name": "George Clarkey",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 36.0,
+      "games": 25,
+      "stats": {
+        "wins": 9,
+        "losses": 16,
+        "kills": 13,
+        "deaths": 13,
+        "kdr": 1.0,
+        "tasksCompleted": 23,
+        "votedOut": 2,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 16,
+          "wins": 7,
+          "winRate": 43.75
+        },
+        "Imposter": {
+          "games": 6,
+          "wins": 2,
+          "winRate": 33.33,
+          "kills": 11
+        },
+        "Neutral": {
+          "games": 3,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "George Clarkey",
+            "count": 3
+          },
+          {
+            "name": "Ethan",
+            "count": 2
+          },
+          {
+            "name": "JJ",
+            "count": 2
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "George Clarkey",
+            "count": 3
+          },
+          {
+            "name": "Tobi",
+            "count": 3
+          },
+          {
+            "name": "Simon",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ArthurTV",
+      "name": "ArthurTV",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 45.45,
+      "games": 22,
+      "stats": {
+        "wins": 10,
+        "losses": 12,
+        "kills": 6,
+        "deaths": 7,
+        "kdr": 0.86,
+        "tasksCompleted": 52,
+        "votedOut": 2,
+        "meetings": 3
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 18,
+          "wins": 8,
+          "winRate": 44.44
+        },
+        "Imposter": {
+          "games": 4,
+          "wins": 2,
+          "winRate": 50.0,
+          "kills": 6
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Vik",
+            "count": 2
+          },
+          {
+            "name": "Viz",
+            "count": 2
+          },
+          {
+            "name": "George Clarkey",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 3
+          },
+          {
+            "name": "Calfreezy",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "WillNE",
+      "name": "WillNE",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 20,
+      "stats": {
+        "wins": 10,
+        "losses": 10,
+        "kills": 5,
+        "deaths": 4,
+        "kdr": 1.25,
+        "tasksCompleted": 27,
+        "votedOut": 9,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 18,
+          "wins": 10,
+          "winRate": 55.56
+        },
+        "Imposter": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 4
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "ChrisMD",
+            "count": 1
+          },
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 1
+          },
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Theo",
+      "name": "Theo",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 38.89,
+      "games": 18,
+      "stats": {
+        "wins": 7,
+        "losses": 11,
+        "kills": 5,
+        "deaths": 10,
+        "kdr": 0.5,
+        "tasksCompleted": 4,
+        "votedOut": 3,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 13,
+          "wins": 5,
+          "winRate": 38.46
+        },
+        "Imposter": {
+          "games": 5,
+          "wins": 2,
+          "winRate": 40.0,
+          "kills": 5
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Josh",
+            "count": 3
+          },
+          {
+            "name": "Deji",
+            "count": 2
+          },
+          {
+            "name": "Ethan",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "Chip",
+      "name": "Chip",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 47.06,
+      "games": 17,
+      "stats": {
+        "wins": 8,
+        "losses": 9,
+        "kills": 4,
+        "deaths": 11,
+        "kdr": 0.36,
+        "tasksCompleted": 24,
+        "votedOut": 2,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 14,
+          "wins": 8,
+          "winRate": 57.14
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 3
+        },
+        "Neutral": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Vik",
+            "count": 2
+          },
+          {
+            "name": "Deji",
+            "count": 1
+          },
+          {
+            "name": "MaxFosh",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "DannyAarons",
+            "count": 2
+          },
+          {
+            "name": "Ethan",
+            "count": 2
+          },
+          {
+            "name": "Josh",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "AB",
+      "name": "AB",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 37.5,
+      "games": 16,
+      "stats": {
+        "wins": 6,
+        "losses": 10,
+        "kills": 4,
+        "deaths": 2,
+        "kdr": 2.0,
+        "tasksCompleted": 42,
+        "votedOut": 6,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 13,
+          "wins": 6,
+          "winRate": 46.15
+        },
+        "Imposter": {
+          "games": 3,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 3
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 2
+          },
+          {
+            "name": "Calfreezy",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "MilkInABag",
+      "name": "MilkInABag",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 66.67,
+      "games": 15,
+      "stats": {
+        "wins": 10,
+        "losses": 5,
+        "kills": 9,
+        "deaths": 7,
+        "kdr": 1.29,
+        "tasksCompleted": 20,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 12,
+          "wins": 7,
+          "winRate": 58.33
+        },
+        "Imposter": {
+          "games": 3,
+          "wins": 3,
+          "winRate": 100.0,
+          "kills": 9
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          },
+          {
+            "name": "Vik",
+            "count": 2
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          },
+          {
+            "name": "DannyAarons",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Memeulous",
+      "name": "Memeulous",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 25.0,
+      "games": 12,
+      "stats": {
+        "wins": 3,
+        "losses": 7,
+        "kills": 3,
+        "deaths": 9,
+        "kdr": 0.33,
+        "tasksCompleted": 5,
+        "votedOut": 2,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 4,
+          "wins": 3,
+          "winRate": 75.0
+        },
+        "Imposter": {
+          "games": 4,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 4,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Memeulous",
+            "count": 1
+          },
+          {
+            "name": "Viz",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Deji",
+            "count": 2
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 2
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "AliA",
+      "name": "AliA",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 30.0,
+      "games": 10,
+      "stats": {
+        "wins": 3,
+        "losses": 7,
+        "kills": 0,
+        "deaths": 9,
+        "kdr": 0.0,
+        "tasksCompleted": 11,
+        "votedOut": 0,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 9,
+          "wins": 3,
+          "winRate": 33.33
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "DannyAarons",
+            "count": 2
+          },
+          {
+            "name": "Lachlan",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "Courage",
+      "name": "Courage",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 10,
+      "stats": {
+        "wins": 5,
+        "losses": 5,
+        "kills": 14,
+        "deaths": 4,
+        "kdr": 3.5,
+        "tasksCompleted": 18,
+        "votedOut": 3,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 3,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 4,
+          "wins": 2,
+          "winRate": 50.0,
+          "kills": 14
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 3
+          },
+          {
+            "name": "Harry",
+            "count": 2
+          },
+          {
+            "name": "JJ",
+            "count": 2
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Lazarbeam",
+            "count": 2
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Fresh",
+      "name": "Fresh",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 40.0,
+      "games": 10,
+      "stats": {
+        "wins": 4,
+        "losses": 6,
+        "kills": 4,
+        "deaths": 3,
+        "kdr": 1.33,
+        "tasksCompleted": 0,
+        "votedOut": 2,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 9,
+          "wins": 3,
+          "winRate": 33.33
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 4
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          },
+          {
+            "name": "Randolph",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          },
+          {
+            "name": "Simon",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ninja",
+      "name": "Ninja",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 10,
+      "stats": {
+        "wins": 5,
+        "losses": 5,
+        "kills": 0,
+        "deaths": 9,
+        "kdr": 0.0,
+        "tasksCompleted": 20,
+        "votedOut": 0,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 10,
+          "wins": 5,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Lazarbeam",
+            "count": 2
+          },
+          {
+            "name": "Courage",
+            "count": 1
+          },
+          {
+            "name": "DannyAarons",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Anita",
+      "name": "Anita",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 22.22,
+      "games": 9,
+      "stats": {
+        "wins": 2,
+        "losses": 7,
+        "kills": 1,
+        "deaths": 3,
+        "kdr": 0.33,
+        "tasksCompleted": 11,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 8,
+          "wins": 1,
+          "winRate": 12.5
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 1
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Tobi",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ciaran",
+      "name": "Ciaran",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 55.56,
+      "games": 9,
+      "stats": {
+        "wins": 5,
+        "losses": 4,
+        "kills": 0,
+        "deaths": 6,
+        "kdr": 0.0,
+        "tasksCompleted": 24,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 8,
+          "wins": 5,
+          "winRate": 62.5
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 2
+          },
+          {
+            "name": "Deji",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Muselk",
+      "name": "Muselk",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 66.67,
+      "games": 9,
+      "stats": {
+        "wins": 6,
+        "losses": 3,
+        "kills": 3,
+        "deaths": 4,
+        "kdr": 0.75,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 8,
+          "wins": 5,
+          "winRate": 62.5
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 3
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Lachlan",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Lachlan",
+            "count": 2
+          },
+          {
+            "name": "JJ",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tom Syndicate",
+      "name": "Tom Syndicate",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 22.22,
+      "games": 9,
+      "stats": {
+        "wins": 2,
+        "losses": 7,
+        "kills": 2,
+        "deaths": 4,
+        "kdr": 0.5,
+        "tasksCompleted": 5,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 8,
+          "wins": 1,
+          "winRate": 12.5
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Calfreezy",
+            "count": 1
+          },
+          {
+            "name": "Deji",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Burn Peanut",
+      "name": "Burn Peanut",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 25.0,
+      "games": 8,
+      "stats": {
+        "wins": 2,
+        "losses": 6,
+        "kills": 0,
+        "deaths": 0,
+        "kdr": 0.0,
+        "tasksCompleted": 14,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 7,
+          "wins": 1,
+          "winRate": 14.29
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": []
+      }
+    },
+    {
+      "id": "Joe Weller",
+      "name": "Joe Weller",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 87.5,
+      "games": 8,
+      "stats": {
+        "wins": 7,
+        "losses": 1,
+        "kills": 2,
+        "deaths": 3,
+        "kdr": 0.67,
+        "tasksCompleted": 9,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 7,
+          "wins": 6,
+          "winRate": 85.71
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          },
+          {
+            "name": "Simon",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Louu",
+      "name": "Louu",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 0.0,
+      "games": 8,
+      "stats": {
+        "wins": 0,
+        "losses": 8,
+        "kills": 0,
+        "deaths": 4,
+        "kdr": 0.0,
+        "tasksCompleted": 20,
+        "votedOut": 3,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 0,
+          "winRate": 0.0
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "TommyInnit",
+      "name": "TommyInnit",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 25.0,
+      "games": 8,
+      "stats": {
+        "wins": 2,
+        "losses": 6,
+        "kills": 6,
+        "deaths": 1,
+        "kdr": 6.0,
+        "tasksCompleted": 0,
+        "votedOut": 4,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 5,
+          "wins": 2,
+          "winRate": 40.0
+        },
+        "Imposter": {
+          "games": 3,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 6
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Simon",
+            "count": 2
+          },
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tubbo",
+      "name": "Tubbo",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 75.0,
+      "games": 8,
+      "stats": {
+        "wins": 6,
+        "losses": 2,
+        "kills": 2,
+        "deaths": 3,
+        "kdr": 0.67,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 2
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 7,
+          "wins": 5,
+          "winRate": 71.43
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Wilbur",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Simon",
+            "count": 1
+          },
+          {
+            "name": "TommyInnit",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wilbur",
+      "name": "Wilbur",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 37.5,
+      "games": 8,
+      "stats": {
+        "wins": 3,
+        "losses": 5,
+        "kills": 1,
+        "deaths": 3,
+        "kdr": 0.33,
+        "tasksCompleted": 0,
+        "votedOut": 3,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 3,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 1
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 1
+          },
+          {
+            "name": "Tubbo",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Apex",
+      "name": "Apex",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 28.57,
+      "games": 7,
+      "stats": {
+        "wins": 2,
+        "losses": 5,
+        "kills": 2,
+        "deaths": 3,
+        "kdr": 0.67,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 2,
+          "winRate": 33.33
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 2
+          },
+          {
+            "name": "Tobi",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jarvis",
+      "name": "Jarvis",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 28.57,
+      "games": 7,
+      "stats": {
+        "wins": 2,
+        "losses": 5,
+        "kills": 1,
+        "deaths": 6,
+        "kdr": 0.17,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 2,
+          "winRate": 33.33
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 1
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jynxzi",
+      "name": "Jynxzi",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 0.0,
+      "games": 7,
+      "stats": {
+        "wins": 0,
+        "losses": 7,
+        "kills": 2,
+        "deaths": 5,
+        "kdr": 0.4,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 1,
+          "wins": 0,
+          "winRate": 0.0
+        },
+        "Imposter": {
+          "games": 2,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 2
+        },
+        "Neutral": {
+          "games": 4,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Deji",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Ginge",
+            "count": 1
+          },
+          {
+            "name": "JJ",
+            "count": 1
+          },
+          {
+            "name": "Lazarbeam",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kay",
+      "name": "Kay",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 71.43,
+      "games": 7,
+      "stats": {
+        "wins": 5,
+        "losses": 2,
+        "kills": 5,
+        "deaths": 1,
+        "kdr": 5.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 5,
+          "wins": 3,
+          "winRate": 60.0
+        },
+        "Imposter": {
+          "games": 2,
+          "wins": 2,
+          "winRate": 100.0,
+          "kills": 5
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Harry",
+            "count": 2
+          },
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Jarvis",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Harry",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Marlon",
+      "name": "Marlon",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 85.71,
+      "games": 7,
+      "stats": {
+        "wins": 6,
+        "losses": 1,
+        "kills": 0,
+        "deaths": 3,
+        "kdr": 0.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 5,
+          "winRate": 83.33
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Tobi",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Chandler",
+      "name": "Chandler",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 66.67,
+      "games": 6,
+      "stats": {
+        "wins": 4,
+        "losses": 2,
+        "kills": 1,
+        "deaths": 1,
+        "kdr": 1.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 5,
+          "wins": 3,
+          "winRate": 60.0
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 1
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Karl",
+            "count": 1
+          }
+        ],
+        "topNemeses": [
+          {
+            "name": "Simon",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Karl",
+      "name": "Karl",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 6,
+      "stats": {
+        "wins": 3,
+        "losses": 3,
+        "kills": 0,
+        "deaths": 1,
+        "kdr": 0.0,
+        "tasksCompleted": 0,
+        "votedOut": 2,
+        "meetings": 1
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 3,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Chandler",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Liam",
+      "name": "Liam",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 6,
+      "stats": {
+        "wins": 3,
+        "losses": 3,
+        "kills": 0,
+        "deaths": 3,
+        "kdr": 0.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 6,
+          "wins": 3,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "MilkInABag",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "MrBeast",
+      "name": "MrBeast",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 50.0,
+      "games": 6,
+      "stats": {
+        "wins": 3,
+        "losses": 3,
+        "kills": 4,
+        "deaths": 0,
+        "kdr": 4.0,
+        "tasksCompleted": 0,
+        "votedOut": 1,
+        "meetings": 2
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 4,
+          "wins": 2,
+          "winRate": 50.0
+        },
+        "Imposter": {
+          "games": 2,
+          "wins": 1,
+          "winRate": 50.0,
+          "kills": 4
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Harry",
+            "count": 1
+          },
+          {
+            "name": "JJ",
+            "count": 1
+          }
+        ],
+        "topNemeses": []
+      }
+    },
+    {
+      "id": "Dream",
+      "name": "Dream",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 80.0,
+      "games": 5,
+      "stats": {
+        "wins": 4,
+        "losses": 1,
+        "kills": 0,
+        "deaths": 3,
+        "kdr": 0.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 2
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 5,
+          "wins": 4,
+          "winRate": 80.0
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Tobi",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "JackSepticEye",
+      "name": "JackSepticEye",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 100.0,
+      "games": 5,
+      "stats": {
+        "wins": 5,
+        "losses": 0,
+        "kills": 3,
+        "deaths": 0,
+        "kdr": 3.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 0
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 4,
+          "wins": 4,
+          "winRate": 100.0
+        },
+        "Imposter": {
+          "games": 1,
+          "wins": 1,
+          "winRate": 100.0,
+          "kills": 3
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [
+          {
+            "name": "Ethan",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          },
+          {
+            "name": "Vik",
+            "count": 1
+          }
+        ],
+        "topNemeses": []
+      }
+    },
+    {
+      "id": "Pewdiepie",
+      "name": "Pewdiepie",
+      "icon": "Icons/Among_us_red.png",
+      "winRate": 80.0,
+      "games": 5,
+      "stats": {
+        "wins": 4,
+        "losses": 1,
+        "kills": 0,
+        "deaths": 2,
+        "kdr": 0.0,
+        "tasksCompleted": 0,
+        "votedOut": 0,
+        "meetings": 2
+      },
+      "roles": {
+        "Crewmate": {
+          "games": 5,
+          "wins": 4,
+          "winRate": 80.0
+        },
+        "Imposter": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0,
+          "kills": 0
+        },
+        "Neutral": {
+          "games": 0,
+          "wins": 0,
+          "winRate": 0.0
+        }
+      },
+      "trivia": {
+        "topVictims": [],
+        "topNemeses": [
+          {
+            "name": "JJ",
+            "count": 1
+          },
+          {
+            "name": "Josh",
+            "count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

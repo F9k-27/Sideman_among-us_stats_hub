@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among Us | Sideman Stat Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="dashboard-view" class="view active">
+        <header>
+            <h1>OVERALL SIDEMAN AMONGUS STATISTICS</h1>
+            <div class="overall-stats" id="overall-stats-container"></div>
+            
+            <h2 class="sub-header">Top Imposter Combinations</h2>
+            <div class="combo-table-container">
+                <table class="combo-table" id="combo-table">
+                    <thead>
+                        <tr>
+                            <th>Imposters</th>
+                            <th>Games Played</th>
+                            <th>Wins</th>
+                            <th>Win Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody id="combo-tbody">
+                        </tbody>
+                </table>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="sub-header">Player Roster</h2>
+            <div class="player-grid" id="player-grid"></div>
+        </main>
+    </div>
+
+    <div id="player-detail-view" class="view">
+        <header>
+            <button class="back-btn" onclick="showDashboard()">&#8592; Back to Dashboard</button>
+            <div id="detail-icon" class="detail-icon"></div> 
+            <h1 id="detail-name">Player Name</h1>
+            <div class="player-subtitle" id="detail-subtitle">0 Games Played | 0% Win Rate</div>
+        </header>
+
+        <main class="detail-container">
+            <div class="trivia-container" id="trivia-container">
+                <div class="trivia-box">
+                    <h3>Favorite Victims</h3>
+                    <ul id="top-victims-list"></ul>
+                </div>
+                <div class="trivia-box">
+                    <h3>Most Killed By</h3>
+                    <ul id="top-nemeses-list"></ul>
+                </div>
+            </div>
+
+            <div class="role-selector">
+                <button class="role-btn active" onclick="changeRole('All')">All Roles</button>
+                <button class="role-btn" onclick="changeRole('Crewmate')">Crewmate</button>
+                <button class="role-btn" onclick="changeRole('Imposter')">Imposter</button>
+            </div>
+            
+            <div class="detail-stats" id="detail-stats-container"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

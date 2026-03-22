@@ -1,0 +1,89 @@
+:root {
+    --bg-color: #0d0d0d;
+    --card-bg: #1a1a1a;
+    --text-main: #ffffff;
+    --text-muted: #888888;
+    --accent: #ff6b00;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background-color: var(--bg-color); color: var(--text-main); padding: 2rem; }
+
+.view { display: none; animation: fadeIn 0.3s ease-in-out; }
+.view.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+h1 { font-weight: 800; letter-spacing: 2px; margin-bottom: 0.5rem; text-transform: uppercase; }
+h2.sub-header { color: var(--accent); margin-top: 2rem; margin-bottom: 1rem; font-weight: 600; text-transform: uppercase; font-size: 1.2rem; letter-spacing: 1px;}
+.player-subtitle { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; }
+
+header { border-bottom: 2px solid #333; padding-bottom: 2rem; margin-bottom: 2rem; }
+.overall-stats { display: flex; gap: 1rem; flex-wrap: wrap; }
+.stat-box { background: var(--card-bg); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent); flex: 1; min-width: 150px; }
+.stat-box span { display: block; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem; }
+.stat-box strong { font-size: 1.8rem; }
+
+/* Imposter Combo Table */
+.combo-table-container { overflow-x: auto; background: var(--card-bg); border-radius: 8px; padding: 1rem; }
+.combo-table { width: 100%; border-collapse: collapse; text-align: left; }
+.combo-table th { color: var(--text-muted); padding: 1rem; border-bottom: 1px solid #333; font-weight: 500; }
+.combo-table td { padding: 1rem; border-bottom: 1px solid #222; font-weight: bold; }
+.combo-table tr:hover td { background: #222; }
+.combo-table td:first-child { color: var(--accent); }
+
+/* Player Cards */
+.player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
+.player-card { background: var(--card-bg); padding: 1.5rem; border-radius: 8px; text-align: center; cursor: pointer; position: relative; transition: 0.2s; }
+.player-card:hover { transform: translateY(-5px); background: #222; border-color: var(--accent); box-shadow: 0 4px 15px rgba(255,107,0,0.2); }
+/* Enhanced Player Icons */
+.player-icon, .detail-icon { 
+    width: 80px; 
+    height: 80px; 
+    background-color: #252525; 
+    border-radius: 50%; 
+    margin: 0 auto 1rem; 
+    border: 3px solid var(--accent); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 2.5rem; /* Larger emoji/icon size */
+    box-shadow: 0 0 15px rgba(255, 107, 0, 0.3);
+}
+
+/* Specific styling for the detail view icon */
+.detail-icon {
+    margin: 0 0 1rem 0; /* Align left in detail view */
+}
+
+.player-icon img, .detail-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.player-card h3 { font-size: 1.2rem; }
+.win-rate { font-size: 1.5rem; color: var(--accent); font-weight: bold; margin-top: 0.5rem; }
+.games-played { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem; }
+
+/* Kill Trivia Section */
+.trivia-container { display: flex; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+.trivia-box { background: var(--card-bg); padding: 1.5rem; border-radius: 8px; flex: 1; min-width: 200px; }
+.trivia-box h3 { color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
+.trivia-box ul { list-style: none; }
+.trivia-box li { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px dashed #333; }
+.trivia-box li span:last-child { font-weight: bold; color: #fff; }
+
+.tooltip { position: absolute; bottom: 110%; left: 50%; transform: translateX(-50%); background: var(--text-main); color: var(--bg-color); padding: 1rem; border-radius: 8px; width: max-content; opacity: 0; pointer-events: none; transition: 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.5); z-index: 10; text-align: left; }
+.player-card:hover .tooltip { opacity: 1; }
+.tooltip p { margin: 0.3rem 0; font-size: 0.9rem; font-weight: 600; }
+.tooltip hr { border: 0; border-top: 1px solid #ccc; margin: 0.5rem 0; }
+
+.back-btn { background: transparent; color: var(--text-muted); border: none; cursor: pointer; font-size: 1rem; margin-bottom: 1rem; transition: 0.2s; }
+.back-btn:hover { color: var(--accent); }
+
+.role-selector { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.role-btn { background: var(--card-bg); color: var(--text-main); border: 1px solid #333; padding: 0.8rem 1.5rem; border-radius: 4px; cursor: pointer; transition: 0.2s; }
+.role-btn:hover { background: #333; }
+.role-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.detail-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.5rem; }
